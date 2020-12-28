@@ -1,0 +1,21 @@
+fun fact(n: int): int
+{
+    if (n >= 1)
+    {
+        return n * fact(n - 1);
+    }
+    else
+    {
+        return 1;
+    };
+};
+
+
+fun main(): void
+{
+    var forty = 40.0;
+
+    output 2 + 2 * (5 - forty) / 5;
+
+    output fact(7);     # 720
+};

@@ -1,0 +1,15 @@
+# Project Files
+/.idea
+/semi.iml
+
+# Generated Sources
+/src/parser/gen
+/vendor
+
+# Generated Binaries
+/semi
+/examples/simple_print_expression
+
+# Temporary & Intermediate Files
+/cp.out
+/notes
